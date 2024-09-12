@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainImg {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 85vh;
+    align-items: center;
+    background-image: url(../../Img/project-03.png);
+    background-position: center;
+    background-size:cover;
+    color: yellow;
+
+}
+h1 { 
+    width: 80vw;
+    font-size: 80pt;
+    color: #D3E10E;
+    opacity: 1;
+    padding-top: 2em;
+    text-align: center;
+}
+p {
+    width: 80vw;
+    font: normal normal normal 20px/26px Assistant;
+        color: #F9F9F9;
+        opacity: 1;
+        padding-top: 0.5em;
+        text-align: center;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+}
+label {
+    font: normal normal bold 16px/21px Assistant;
+    letter-spacing: 0px;
+    color: #011560;
+    opacity: 1;
+    margin-right: 2em;
+}
+input {
+    height: 40px;
+    width: 20rem;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    border: none;
+    border-bottom: 2px solid #D3E10E;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+button {
+    font: normal normal bold 22px/30px Heebo;
+    color: #011560;
+    border: none;
+    opacity: 1;
+    background-color: #D3E10E;
+    width: 8rem;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+
+
+@media (max-width: 760px) {
+    .container {
+        width: 100vw;
+    }
+    .mainImg {
+        height: 45vh;
+    }
+    h1 {
+        font-size: 20pt;
+        padding-top: 18%;
+    }
+    .form {
+        flex-direction: column; 
+        
+    }
+    .name, .email {
+        width: 80vw;
+        margin-left: 10%;
+    }
+    input {
+        width: 80vw;
+    }
+    button {
+        width: 80vw;
+        margin-left: 1%;
+        margin-top: 10px;
+    }
+}
+

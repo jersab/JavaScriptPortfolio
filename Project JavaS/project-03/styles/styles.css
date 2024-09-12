@@ -1,0 +1,21 @@
+.form-control {
+  font-size: 1.25rem;
+}
+.btn-info {
+  font-size: 1.25rem;
+}
+@media (max-width: 767px) {
+  .container {
+      width: 100% !important; 
+      padding: 0 10px;
+  }
+  .display-3 {
+      font-size: 2rem; 
+  }
+  .form-check-label, .dropdown-toggle {
+      font-size: 1rem;
+  }
+  table {
+      font-size: 0.875rem;
+  }
+}

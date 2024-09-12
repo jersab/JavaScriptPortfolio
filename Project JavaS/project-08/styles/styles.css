@@ -1,0 +1,13 @@
+.num {
+    font-size: 2rem;
+    width: 70px;
+    margin: 5px;
+    text-align: center;
+}
+.color-info {
+    display: inline-block;
+    width: auto;
+    max-width: 200px;
+    text-align: left;
+    white-space: nowrap;
+}
