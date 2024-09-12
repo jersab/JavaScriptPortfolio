@@ -9,7 +9,7 @@
   display: flex;
   padding-left: 1rem;
   background-color: #222831;
-  width: 100vw;
+  width: 100%;
   height: 2rem;
   align-items: center;
 }
@@ -69,7 +69,6 @@
 }
 
 .content H1 {
-  padding-right: 30px;
   color: #EEEEEE;
   text-shadow: 1px 1px 2px #00ADB5, 0 0 1em #393E46, 0 0 0.2em #00ADB5;
 }
